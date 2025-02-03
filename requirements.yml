@@ -1,4 +1,4 @@
 ---
-collections:
-  - name: servicenow.itsm
-  - name: amazon.aws
+#collections:
+#  - name: servicenow.itsm
+#  - name: amazon.aws
