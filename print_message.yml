@@ -1,0 +1,7 @@
+---
+- name: Print a message
+  hosts: all
+  tasks:
+    - name: Display a message
+      debug:
+        msg: "Hello, this is a simple Ansible playbook!"
