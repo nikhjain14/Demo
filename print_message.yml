@@ -13,4 +13,4 @@
 
     - name: Display a message
       debug:
-        var: "{{ namedevelopment_version }}"
+        msg: "{{ namedevelopment_version }}"
