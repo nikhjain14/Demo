@@ -10,10 +10,6 @@
     - name: Add constructed inventory with two existing input inventories
       ansible.controller.inventory:
         name: "Constructed Inventory"
-        controller_host: 10.74.131.100
-        validate_certs: false
-        controller_username: admin
-        controller_password: redhat
         description: "Creating constructed inventory by adding two inventory"
         organization: Default
         kind: constructed
