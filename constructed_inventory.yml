@@ -9,6 +9,8 @@
   tasks:
     - name: Add constructed inventory with two existing input inventories
       ansible.controller.inventory:
+        controller_username: admin
+        controller_password: redhat
         name: "Constructed Inventory"
         description: "Creating constructed inventory by adding two inventory"
         organization: Default
