@@ -1,7 +1,7 @@
 ---
 - name: Constructed Inventory
   hosts: all
-    vars:
+  vars:
     controller_host: controller.example.com
     validate_certs: false
     controller_username: admin
