@@ -3,7 +3,7 @@
   hosts: all
   tasks:
     - name: Add constructed inventory with two existing input inventories
-      inventory:
+      ansible.controller.inventory:
         name: "Constructed Inventory"
         description: "Creating constructed inventory by adding two inventory"
         organization: Default
