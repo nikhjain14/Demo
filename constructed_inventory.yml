@@ -1,0 +1,13 @@
+---
+- name: Constructed Inventory
+  hosts: all
+  tasks:
+    - name: Add constructed inventory with two existing input inventories
+      inventory:
+        name: "Constructed Inventory"
+        description: "Creating constructed inventory by adding two inventory"
+        organization: Default
+        kind: constructed
+        input_inventories:
+          - "Dynamic-APP-AWS"
+          - "Dynamic"
