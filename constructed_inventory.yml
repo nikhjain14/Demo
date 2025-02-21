@@ -1,6 +1,11 @@
 ---
 - name: Constructed Inventory
   hosts: all
+    vars:
+    controller_host: controller.example.com
+    validate_certs: false
+    controller_username: admin
+    controller_password: redhat
   tasks:
     - name: Add constructed inventory with two existing input inventories
       ansible.controller.inventory:
@@ -11,8 +16,4 @@
         input_inventories:
           - "Dynamic-APP-AWS"
           - "Dynamic"
-        controller_host: 10.74.131.100
-        controller_username: admin
-        controller_password: redhat
-        validate_certs: false
         state: present
