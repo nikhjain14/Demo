@@ -17,3 +17,4 @@
           - "Dynamic-APP-AWS"
           - "Dynamic"
         state: present
+        validate_certs: false
