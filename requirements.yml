@@ -1,3 +1,4 @@
 ---
 collections:
-  - name: confluent.platform
+#  - name: confluent.platform
+  - name: ansible.controller
