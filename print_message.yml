@@ -13,7 +13,7 @@
 
     - name: Display a message
       debug:
-        msg: "{{ namedevelopment_version }}"
+        msg: "this is a old message"
 
     - name: Display a another message
       debug:
