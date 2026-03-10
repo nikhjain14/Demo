@@ -14,3 +14,7 @@
     - name: Display a message
       debug:
         msg: "{{ namedevelopment_version }}"
+
+    - name: Display a another message
+      debug:
+        msg: "Hi, this is Nikhil Jain"
