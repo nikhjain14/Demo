@@ -8,7 +8,7 @@
 
     - name: Install httpd package
       yum:
-        name: httpd
+        name: tree
         state: latest
 
     - name: Display a message
