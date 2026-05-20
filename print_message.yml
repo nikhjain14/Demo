@@ -6,7 +6,7 @@
       debug:
         msg: "Hello, this is a simple Ansible playbook!"
 
-    - name: Install httpd package
+    - name: Install Tree package
       yum:
         name: tree
         state: latest
