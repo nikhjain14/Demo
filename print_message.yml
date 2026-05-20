@@ -14,3 +14,7 @@
     - name: Display a message
       debug:
         msg: "{{ namedevelopment_version }}"
+
+    - name: Sleep for 30 seconds
+      ansible.builtin.pause:
+        seconds: 30
