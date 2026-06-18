@@ -6,15 +6,15 @@
       debug:
         msg: "Hello, this is a simple Ansible playbook!"
 
-    - name: Install Tree package
-      yum:
-        name: tree
-        state: latest
+#    - name: Install Tree package
+#      yum:
+#        name: tree
+#        state: latest
 
     - name: Display a message
       debug:
         msg: "{{ namedevelopment_version }}"
 
-    - name: Sleep for 30 seconds
-      ansible.builtin.pause:
-        seconds: 30
+#    - name: Sleep for 30 seconds
+#      ansible.builtin.pause:
+#        seconds: 30
