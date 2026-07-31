@@ -3,6 +3,7 @@ collections:
 #  - name: confluent.platform
 #  - name: ansible.controller
 #    version: 4.5.17
-   - name: ansible.posix
-   - name: servicenow.itsm
-   - name: steampunk.aws
+#   - name: ansible.posix
+#   - name: servicenow.itsm
+#   - name: steampunk.aws
+   - name: infra.aap_configuration
